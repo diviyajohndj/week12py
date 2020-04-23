@@ -1,0 +1,6 @@
+x=int(input())
+s=[]
+for i in range(x):
+  s.append(input().upper())
+  
+print('\n'.join(s),end=' ')
