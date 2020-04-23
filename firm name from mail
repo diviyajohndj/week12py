@@ -1,0 +1,5 @@
+import re
+s=input()
+p="(\w+)@(\w+)\.(com)"
+m=re.match(p,s)
+print(m.group(2),end=' ')
